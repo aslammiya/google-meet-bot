@@ -19,7 +19,7 @@ chemistryTime =   ("12:15 pm")
 physicsTime   =   ("12:15 pm")
 biologyTime   =   ("12:25 pm")
 
-demo      =  "https://meet.google.com/gpr-vnvf-ijg"
+demo      =  "https://meet.google.com/agi-icmi-kzv"
 
 maths     =  ""
 
@@ -33,7 +33,7 @@ physics   =  ""
 
 biology   =  ""
 
-numCheck = 2
+numCheck = 15
 
 waitTime = 3600
 
