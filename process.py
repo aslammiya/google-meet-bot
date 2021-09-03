@@ -8,7 +8,7 @@ from twilio.rest import Client
 import datefinder
 import datetime
 from termcolor import colored
-import re; import requests
+import requests
 import info
 
 USERNAME = "aslammiya722@gmail.com"
@@ -27,10 +27,18 @@ listButtonPath = "//button[@aria-label='Chat with everyone']"
 listButtonCrossPath = "//button[@aria-label='Close']"
 studentNumberPath = "//div[@class='uGOf1d']"
 endButtonPath = "[aria-label='Leave call']"
+userAgent = ("Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36")
 
 def initBrowser():
     print(colored('\n    Browser initialising....', 'cyan'))
     chromeOptions = webdriver.ChromeOptions()
+    chromeOptions.headless = True
+    chromeOptions.add_argument(f'user-agent={userAgent}')
+    chromeOptions.add_argument('--ignore-certificate-errors')
+    chromeOptions.add_argument('--allow-running-insecure-content')
+    chromeOptions.add_argument("--proxy-server='direct://'")
+    chromeOptions.add_argument("--proxy-bypass-list=*")
+    chromeOptions.add_argument('--disable-dev-shm-usage')
     chromeOptions.add_argument('--no-sandbox')
     chromeOptions.add_argument("--disable-infobars")
     chromeOptions.add_argument("--disable-gpu")
@@ -206,4 +214,3 @@ def checkLeav():
         except Exception:
             pass
             break
-

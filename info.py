@@ -9,17 +9,15 @@ minA = time[3:-10]
 minA = int(minA)
 now = (f"{hor}:{minA}")
 
-
-
 nowTime = (now)
 mathsTime     =   ("3:32 pm")
 englishTime   =   ("2:39 pm")
 hindiTime     =   ("12:15 pm")
 chemistryTime =   ("12:15 pm")
 physicsTime   =   ("12:15 pm")
-biologyTime   =   ("12:25 pm")
+biologyTime   =   (now)
 
-demo      =  "https://meet.google.com/agi-icmi-kzv"
+demo      =  "https://meet.google.com/zfo-hqtx-dts"
 
 maths     =  ""
 
@@ -31,15 +29,15 @@ chemistry =  ""
 
 physics   =  ""
 
-biology   =  ""
+biology   =  "https://meet.google.com/xwm-rarx-yrj"
 
 numCheck = 15
 
 waitTime = 3600
 
-joinMessage = "Bot is joinde at lecture."
+joinMessage = "Bot is joinde at the lecture."
 
-leaveMessage = "Bot is leaved from lecture."
+leaveMessage = "Bot is leaved from the lecture."
 
 errSms = "Error during leaving lecture."
 

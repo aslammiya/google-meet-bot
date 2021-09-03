@@ -13,6 +13,17 @@ def joinTest():
 	p.quit()
 	p.clrscr()
 
+def joinBiology():
+	p.clrscr()
+	p.botRimender(info.biologyTime)
+	print(colored('\n    Joining to maths Biology...','yellow'))
+	p.initBrowser()
+	p.login()
+	p.attendMeet(info.biology)
+	p.checkLeav()
+	p.quit()
+	p.clrscr()
+
 def joinMaths():
 	p.clrscr()
 	p.botRimender(info.mathsTime)
@@ -69,18 +80,6 @@ def joinChemistry():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.chemistry)
-	p.wait()
-	p.endMeet()
-	p.quit()
-	p.clrscr()
-
-def joinBiology():
-	p.clrscr()
-	p.botRimender(info.biologyTime)
-	print(colored('\n    Joining to maths Biology...','yellow'))
-	p.initBrowser()
-	p.login()
-	p.attendMeet(info.biology)
 	p.wait()
 	p.endMeet()
 	p.quit()
