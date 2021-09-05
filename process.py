@@ -139,14 +139,16 @@ def attendMeet(link):
                 pass
             time.sleep(1)
 
-    joinSms()
+#    joinSms()
     print(colored("\n    Now attending Google Meet", 'green'))
     STATUS = "Attending meeting"
     time.sleep(2)
+    driver.get_screenshot_as_file('start.png')
     print(end="")
     return 1
 
 def endMeet():
+    driver.get_screenshot_as_file('end.png')
     try:
         listCrossButton = driver.find_element_by_xpath(listButtonCrossPath)
         listCrossButton.click()
@@ -156,7 +158,7 @@ def endMeet():
     time.sleep(1)
     endButton = driver.find_element_by_css_selector(endButtonPath)
     endButton.click()
-    leavedSms()
+ #   leavedSms()
     print(colored("\n    Successfully ended Google Meet", 'green'))
     time.sleep(2)
     print(end="")
@@ -214,3 +216,4 @@ def checkLeav():
         except Exception:
             pass
             break
+

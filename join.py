@@ -31,8 +31,7 @@ def joinMaths():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.maths)
-	p.wait()
-	p.endMeet()
+	p.checkLeav()
 	p.quit()
 	p.clrscr()
 
@@ -43,8 +42,7 @@ def joinEnglish():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.english)
-	p.wait()
-	p.endMeet()
+	p.checkLeav()
 	p.quit()
 	p.clrscr()
 
@@ -55,9 +53,7 @@ def joinHindi():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.maths)
-	
-	p.wait()
-	p.endMeet()
+	p.checkLeav()
 	p.quit()
 	p.clrscr()
 
@@ -68,8 +64,7 @@ def joinPhysics():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.physics)
-	p.wait()
-	p.endMeet()
+	p.checkLeav()
 	p.quit()
 	p.clrscr()
 
@@ -80,7 +75,6 @@ def joinChemistry():
 	p.initBrowser()
 	p.login()
 	p.attendMeet(info.chemistry)
-	p.wait()
-	p.endMeet()
+	p.checkLeav()
 	p.quit()
 	p.clrscr()

@@ -13,7 +13,7 @@ nowTime = (now)
 mathsTime     =   ("3:32 pm")
 englishTime   =   ("2:39 pm")
 hindiTime     =   ("12:15 pm")
-chemistryTime =   ("12:15 pm")
+chemistryTime =   (now)
 physicsTime   =   ("12:15 pm")
 biologyTime   =   (now)
 
@@ -25,11 +25,11 @@ english   =  ""
 
 hindi     =  ""
 
-chemistry =  ""
+chemistry =  "https://meet.google.com/xdu-hvmz-zcp"
 
 physics   =  ""
 
-biology   =  "https://meet.google.com/xwm-rarx-yrj"
+biology   =  ""
 
 numCheck = 15
 
