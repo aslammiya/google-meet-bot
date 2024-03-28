@@ -11,8 +11,8 @@ from termcolor import colored
 import requests
 import info
 
-USERNAME = "aslammiya722@gmail.com"
-PASSWORD = "123@Aslam"
+USERNAME = "EMAIL"
+PASSWORD = "PASSWORD"
 
 usernameFieldPath = "identifierId"
 usernameNextButtonPath = "identifierNext"
